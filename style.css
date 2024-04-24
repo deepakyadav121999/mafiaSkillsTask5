@@ -6,20 +6,24 @@
 }
 .container{
     display: flex;
-  height: 100vh;
+  height: 95vh;
+  width: 100%;
   justify-content: center;
+
+ 
+
 
 }
 .left{
     
     background-color: rgb(19, 160, 241);
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .right{
-    width: 50%;
+    width: 40%;
     background-color: whitesmoke;
     border: 0.1px solid rgb(233, 230, 230);
     display: flex;
@@ -41,7 +45,7 @@
     border: none;
     border-radius: 5px;
     outline: none;
-    
+    background-color: rgb(226, 233, 240);
 
 }
 .login_btn{
